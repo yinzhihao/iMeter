@@ -13,32 +13,17 @@
 		0E6D94A01D51E18500C51C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D949E1D51E18500C51C2A /* Main.storyboard */; };
 		0E6D94A21D51E18500C51C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D94A11D51E18500C51C2A /* Assets.xcassets */; };
 		0E6D94A51D51E18500C51C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D94A31D51E18500C51C2A /* LaunchScreen.storyboard */; };
-		0E6D94D01D53138200C51C2A /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94B01D53138100C51C2A /* BabyBluetooth.m */; };
-		0E6D94D11D53138200C51C2A /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94B21D53138100C51C2A /* BabyCallback.m */; };
-		0E6D94D21D53138200C51C2A /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94B41D53138200C51C2A /* BabyCentralManager.m */; };
-		0E6D94D31D53138200C51C2A /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94B61D53138200C51C2A /* BabyDefine.m */; };
-		0E6D94D41D53138200C51C2A /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94B81D53138200C51C2A /* BabyOptions.m */; };
-		0E6D94D51D53138200C51C2A /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94BA1D53138200C51C2A /* BabyPeripheralManager.m */; };
-		0E6D94D61D53138200C51C2A /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94BC1D53138200C51C2A /* BabyRhythm.m */; };
-		0E6D94D71D53138200C51C2A /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94BE1D53138200C51C2A /* BabySpeaker.m */; };
-		0E6D94D81D53138200C51C2A /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94C01D53138200C51C2A /* BabyToy.m */; };
-		0E6D94D91D53138200C51C2A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D94C11D53138200C51C2A /* LICENSE */; };
-		0E6D94DA1D53138200C51C2A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94C21D53138200C51C2A /* README.md */; };
-		0E6D94DB1D53138200C51C2A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D94C41D53138200C51C2A /* LICENSE.txt */; };
-		0E6D94DC1D53138200C51C2A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94C51D53138200C51C2A /* README.md */; };
-		0E6D94DD1D53138200C51C2A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94C81D53138200C51C2A /* SVIndefiniteAnimatedView.m */; };
-		0E6D94DE1D53138200C51C2A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94CA1D53138200C51C2A /* SVProgressAnimatedView.m */; };
-		0E6D94DF1D53138200C51C2A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D94CB1D53138200C51C2A /* SVProgressHUD.bundle */; };
-		0E6D94E01D53138200C51C2A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94CD1D53138200C51C2A /* SVProgressHUD.m */; };
-		0E6D94E11D53138200C51C2A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94CF1D53138200C51C2A /* SVRadialGradientLayer.m */; };
 		0E6D94FD1D531B0A00C51C2A /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94F71D531B0A00C51C2A /* String+Utils.swift */; };
 		0E6D94FE1D531B0A00C51C2A /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94F81D531B0A00C51C2A /* UIButton+Utils.swift */; };
 		0E6D94FF1D531B0A00C51C2A /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94F91D531B0A00C51C2A /* UIColor+Utils.swift */; };
 		0E6D95001D531B0A00C51C2A /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D94FA1D531B0A00C51C2A /* UIViewController+Utils.swift */; };
 		0E6D95051D532A9D00C51C2A /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D95041D532A9D00C51C2A /* UIColor+Util.m */; };
+		0E6D95071D5340FC00C51C2A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D95061D5340FC00C51C2A /* background.jpg */; };
+		1800BADDAC8883F46E3070D7 /* libPods-iMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066294DD3BE2D824C4D0BA53 /* libPods-iMeter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		066294DD3BE2D824C4D0BA53 /* libPods-iMeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6D94921D51E18500C51C2A /* iMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6D94961D51E18500C51C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E6D94981D51E18500C51C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,37 +34,6 @@
 		0E6D94A11D51E18500C51C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E6D94A41D51E18500C51C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E6D94A61D51E18500C51C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E6D94AF1D53138100C51C2A /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
-		0E6D94B01D53138100C51C2A /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
-		0E6D94B11D53138100C51C2A /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
-		0E6D94B21D53138100C51C2A /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
-		0E6D94B31D53138200C51C2A /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
-		0E6D94B41D53138200C51C2A /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
-		0E6D94B51D53138200C51C2A /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
-		0E6D94B61D53138200C51C2A /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
-		0E6D94B71D53138200C51C2A /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
-		0E6D94B81D53138200C51C2A /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
-		0E6D94B91D53138200C51C2A /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
-		0E6D94BA1D53138200C51C2A /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
-		0E6D94BB1D53138200C51C2A /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
-		0E6D94BC1D53138200C51C2A /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
-		0E6D94BD1D53138200C51C2A /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
-		0E6D94BE1D53138200C51C2A /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
-		0E6D94BF1D53138200C51C2A /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
-		0E6D94C01D53138200C51C2A /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
-		0E6D94C11D53138200C51C2A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0E6D94C21D53138200C51C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0E6D94C41D53138200C51C2A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		0E6D94C51D53138200C51C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0E6D94C71D53138200C51C2A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		0E6D94C81D53138200C51C2A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		0E6D94C91D53138200C51C2A /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		0E6D94CA1D53138200C51C2A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		0E6D94CB1D53138200C51C2A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		0E6D94CC1D53138200C51C2A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		0E6D94CD1D53138200C51C2A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		0E6D94CE1D53138200C51C2A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		0E6D94CF1D53138200C51C2A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		0E6D94F21D531A6100C51C2A /* iMeter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMeter-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E6D94F71D531B0A00C51C2A /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		0E6D94F81D531B0A00C51C2A /* UIButton+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
@@ -87,6 +41,9 @@
 		0E6D94FA1D531B0A00C51C2A /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		0E6D95031D532A9D00C51C2A /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		0E6D95041D532A9D00C51C2A /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		0E6D95061D5340FC00C51C2A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		AAF9FA5AC8475AC5EF95BC99 /* Pods-iMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMeter/Pods-iMeter.release.xcconfig"; sourceTree = "<group>"; };
+		AE98AA7D4550BD3A534406E3 /* Pods-iMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMeter/Pods-iMeter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1800BADDAC8883F46E3070D7 /* libPods-iMeter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +63,8 @@
 			children = (
 				0E6D94941D51E18500C51C2A /* iMeter */,
 				0E6D94931D51E18500C51C2A /* Products */,
+				738D5FB58C653CD3D1D004E4 /* Pods */,
+				271E05B2419EDB6B994EADDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,8 +88,6 @@
 				0E6D94A31D51E18500C51C2A /* LaunchScreen.storyboard */,
 				0E6D94A61D51E18500C51C2A /* Info.plist */,
 				0E6D94F11D5319EA00C51C2A /* Util */,
-				0E6D94AC1D53138100C51C2A /* BabyBluetooth */,
-				0E6D94C31D53138200C51C2A /* SVProgressHUD */,
 				0E6D94951D51E18500C51C2A /* Supporting Files */,
 			);
 			path = iMeter;
@@ -138,78 +96,10 @@
 		0E6D94951D51E18500C51C2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E6D95061D5340FC00C51C2A /* background.jpg */,
 				0E6D94961D51E18500C51C2A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0E6D94AC1D53138100C51C2A /* BabyBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				0E6D94AD1D53138100C51C2A /* Classes */,
-				0E6D94C11D53138200C51C2A /* LICENSE */,
-				0E6D94C21D53138200C51C2A /* README.md */,
-			);
-			path = BabyBluetooth;
-			sourceTree = "<group>";
-		};
-		0E6D94AD1D53138100C51C2A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0E6D94AE1D53138100C51C2A /* objc */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		0E6D94AE1D53138100C51C2A /* objc */ = {
-			isa = PBXGroup;
-			children = (
-				0E6D94AF1D53138100C51C2A /* BabyBluetooth.h */,
-				0E6D94B01D53138100C51C2A /* BabyBluetooth.m */,
-				0E6D94B11D53138100C51C2A /* BabyCallback.h */,
-				0E6D94B21D53138100C51C2A /* BabyCallback.m */,
-				0E6D94B31D53138200C51C2A /* BabyCentralManager.h */,
-				0E6D94B41D53138200C51C2A /* BabyCentralManager.m */,
-				0E6D94B51D53138200C51C2A /* BabyDefine.h */,
-				0E6D94B61D53138200C51C2A /* BabyDefine.m */,
-				0E6D94B71D53138200C51C2A /* BabyOptions.h */,
-				0E6D94B81D53138200C51C2A /* BabyOptions.m */,
-				0E6D94B91D53138200C51C2A /* BabyPeripheralManager.h */,
-				0E6D94BA1D53138200C51C2A /* BabyPeripheralManager.m */,
-				0E6D94BB1D53138200C51C2A /* BabyRhythm.h */,
-				0E6D94BC1D53138200C51C2A /* BabyRhythm.m */,
-				0E6D94BD1D53138200C51C2A /* BabySpeaker.h */,
-				0E6D94BE1D53138200C51C2A /* BabySpeaker.m */,
-				0E6D94BF1D53138200C51C2A /* BabyToy.h */,
-				0E6D94C01D53138200C51C2A /* BabyToy.m */,
-			);
-			path = objc;
-			sourceTree = "<group>";
-		};
-		0E6D94C31D53138200C51C2A /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0E6D94C41D53138200C51C2A /* LICENSE.txt */,
-				0E6D94C51D53138200C51C2A /* README.md */,
-				0E6D94C61D53138200C51C2A /* SVProgressHUD */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		0E6D94C61D53138200C51C2A /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0E6D94C71D53138200C51C2A /* SVIndefiniteAnimatedView.h */,
-				0E6D94C81D53138200C51C2A /* SVIndefiniteAnimatedView.m */,
-				0E6D94C91D53138200C51C2A /* SVProgressAnimatedView.h */,
-				0E6D94CA1D53138200C51C2A /* SVProgressAnimatedView.m */,
-				0E6D94CB1D53138200C51C2A /* SVProgressHUD.bundle */,
-				0E6D94CC1D53138200C51C2A /* SVProgressHUD.h */,
-				0E6D94CD1D53138200C51C2A /* SVProgressHUD.m */,
-				0E6D94CE1D53138200C51C2A /* SVRadialGradientLayer.h */,
-				0E6D94CF1D53138200C51C2A /* SVRadialGradientLayer.m */,
-			);
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		0E6D94F11D5319EA00C51C2A /* Util */ = {
@@ -226,6 +116,23 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		271E05B2419EDB6B994EADDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				066294DD3BE2D824C4D0BA53 /* libPods-iMeter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738D5FB58C653CD3D1D004E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE98AA7D4550BD3A534406E3 /* Pods-iMeter.debug.xcconfig */,
+				AAF9FA5AC8475AC5EF95BC99 /* Pods-iMeter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6D94A91D51E18500C51C2A /* Build configuration list for PBXNativeTarget "iMeter" */;
 			buildPhases = (
+				D5BFC2F24819A7A353957BBA /* 📦 Check Pods Manifest.lock */,
 				0E6D948E1D51E18500C51C2A /* Sources */,
 				0E6D948F1D51E18500C51C2A /* Frameworks */,
 				0E6D94901D51E18500C51C2A /* Resources */,
+				C732C6CFCA30BE66CEF00F1F /* 📦 Embed Pods Frameworks */,
+				773ACC9510DEFA3F1B4C4A47 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,44 +194,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6D94A51D51E18500C51C2A /* LaunchScreen.storyboard in Resources */,
-				0E6D94DF1D53138200C51C2A /* SVProgressHUD.bundle in Resources */,
 				0E6D94A21D51E18500C51C2A /* Assets.xcassets in Resources */,
-				0E6D94D91D53138200C51C2A /* LICENSE in Resources */,
-				0E6D94DB1D53138200C51C2A /* LICENSE.txt in Resources */,
+				0E6D95071D5340FC00C51C2A /* background.jpg in Resources */,
 				0E6D94A01D51E18500C51C2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		773ACC9510DEFA3F1B4C4A47 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMeter/Pods-iMeter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C732C6CFCA30BE66CEF00F1F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMeter/Pods-iMeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BFC2F24819A7A353957BBA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E6D948E1D51E18500C51C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E6D94D31D53138200C51C2A /* BabyDefine.m in Sources */,
-				0E6D94E11D53138200C51C2A /* SVRadialGradientLayer.m in Sources */,
-				0E6D94D61D53138200C51C2A /* BabyRhythm.m in Sources */,
 				0E6D949D1D51E18500C51C2A /* ViewController.m in Sources */,
 				0E6D94FD1D531B0A00C51C2A /* String+Utils.swift in Sources */,
-				0E6D94D41D53138200C51C2A /* BabyOptions.m in Sources */,
-				0E6D94DA1D53138200C51C2A /* README.md in Sources */,
 				0E6D95001D531B0A00C51C2A /* UIViewController+Utils.swift in Sources */,
-				0E6D94E01D53138200C51C2A /* SVProgressHUD.m in Sources */,
-				0E6D94DD1D53138200C51C2A /* SVIndefiniteAnimatedView.m in Sources */,
 				0E6D949A1D51E18500C51C2A /* AppDelegate.m in Sources */,
 				0E6D94FF1D531B0A00C51C2A /* UIColor+Utils.swift in Sources */,
-				0E6D94D51D53138200C51C2A /* BabyPeripheralManager.m in Sources */,
-				0E6D94D01D53138200C51C2A /* BabyBluetooth.m in Sources */,
-				0E6D94D21D53138200C51C2A /* BabyCentralManager.m in Sources */,
-				0E6D94D71D53138200C51C2A /* BabySpeaker.m in Sources */,
-				0E6D94DC1D53138200C51C2A /* README.md in Sources */,
-				0E6D94D11D53138200C51C2A /* BabyCallback.m in Sources */,
 				0E6D94FE1D531B0A00C51C2A /* UIButton+Utils.swift in Sources */,
 				0E6D95051D532A9D00C51C2A /* UIColor+Util.m in Sources */,
-				0E6D94D81D53138200C51C2A /* BabyToy.m in Sources */,
 				0E6D94971D51E18500C51C2A /* main.m in Sources */,
-				0E6D94DE1D53138200C51C2A /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +374,12 @@
 		};
 		0E6D94AA1D51E18500C51C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE98AA7D4550BD3A534406E3 /* Pods-iMeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iMeter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcsmart.iMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,10 +390,12 @@
 		};
 		0E6D94AB1D51E18500C51C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF9FA5AC8475AC5EF95BC99 /* Pods-iMeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iMeter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcsmart.iMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -477,6 +422,7 @@
 				0E6D94AB1D51E18500C51C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

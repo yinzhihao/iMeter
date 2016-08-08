@@ -91,7 +91,7 @@
     
     //设置扫描到设备的委托
     [baby setBlockOnDiscoverToPeripherals:^(CBCentralManager *central, CBPeripheral *peripheral, NSDictionary *advertisementData, NSNumber *RSSI) {
-        NSLog(@"搜索到了设备：%@",peripheral.name);
+//        NSLog(@"搜索到了设备：%@",peripheral.name);
         [weakSelf insertTableView:peripheral advertisementData:advertisementData];
     }];
     
@@ -221,6 +221,48 @@
     
 }
 
+#pragma mark -事件
+
+//写数据
+-(void)writeCharacteristic:(CBPeripheral *)peripheral
+            characteristic:(CBCharacteristic *)characteristic
+                     value:(NSData *)value{
+    
+    //打印出 characteristic 的权限，可以看到有很多种，这是一个NS_OPTIONS，就是可以同时用于好几个值，常见的有read，write，notify，indicate，知知道这几个基本就够用了，前连个是读写权限，后两个都是通知，两种不同的通知方式。
+    /*
+     typedef NS_OPTIONS(NSUInteger, CBCharacteristicProperties) {
+     CBCharacteristicPropertyBroadcast												= 0x01,
+     CBCharacteristicPropertyRead													= 0x02,
+     CBCharacteristicPropertyWriteWithoutResponse									= 0x04,
+     CBCharacteristicPropertyWrite													= 0x08,
+     CBCharacteristicPropertyNotify													= 0x10,
+     CBCharacteristicPropertyIndicate												= 0x20,
+     CBCharacteristicPropertyAuthenticatedSignedWrites								= 0x40,
+     CBCharacteristicPropertyExtendedProperties										= 0x80,
+     CBCharacteristicPropertyNotifyEncryptionRequired NS_ENUM_AVAILABLE(NA, 6_0)		= 0x100,
+     CBCharacteristicPropertyIndicateEncryptionRequired NS_ENUM_AVAILABLE(NA, 6_0)	= 0x200
+     };
+     
+     */
+    NSLog(@"%lu", (unsigned long)characteristic.properties);
+    
+    
+    //只有 characteristic.properties 有write的权限才可以写
+    if(characteristic.properties & CBCharacteristicPropertyWrite){
+        /*
+         最好一个type参数可以为CBCharacteristicWriteWithResponse或type:CBCharacteristicWriteWithResponse,区别是是否会有反馈
+         */
+        [peripheral writeValue:value forCharacteristic:characteristic type:CBCharacteristicWriteWithResponse];
+    }else{
+        NSLog(@"该字段不可写！");
+        [SVProgressHUD showErrorWithStatus:@"该字段不可写！"];
+    }
+    
+    
+}
+
+
+
 #pragma mark -UIViewController 方法
 //插入table数据
 - (void)insertTableView:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData
@@ -228,6 +270,7 @@
     if ([_peripherals containsObject:peripheral]) {
         return;
     }
+    NSLog(@"搜索到了设备：%@",peripheral.name);
     
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     
